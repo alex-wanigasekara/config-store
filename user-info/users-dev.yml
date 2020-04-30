@@ -1,3 +1,13 @@
 service:
   greeting: this is from service 1
   id: 025454
+member:
+ rent:
+  min: 8
+  max: 31
+ price:
+  discount: 3
+vehicle:
+ default:
+  model: cross over
+duration: all
