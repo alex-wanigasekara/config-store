@@ -1,5 +1,5 @@
 spring:
   datasource:
-    url: mysql://${MYSQL_HOST:localhost}:3306/lmsDB?createDatabaseIfNotExists=true
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/lmsDB?createDatabaseIfNotExists=true
     username: root
     data-password:
