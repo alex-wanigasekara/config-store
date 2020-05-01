@@ -1,2 +1,5 @@
-app:
-  global: Global config
+spring:
+  datasource:
+    url: mysql://${MYSQL_HOST:localhost}:3306/lms
+    username: root
+    data-password:
